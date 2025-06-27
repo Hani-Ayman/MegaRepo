@@ -16,8 +16,8 @@ nltk.download("stopwords")
 stop_words=set(stopwords.words('english'))
 
 #Load model and vectorizer
-model=joblib.load("sentiment_analysis_model.pkl")
-vectorizer=joblib.load("vectorizer.pkl")
+model=joblib.load("Sentiment_analysis/sentiment_analysis_model.pkl")
+vectorizer=joblib.load("Sentiment_analysis/vectorizer.pkl")
 
 #Clean the text
 def clean_text(text):

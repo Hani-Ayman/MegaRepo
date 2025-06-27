@@ -5,7 +5,7 @@ from PIL import Image
 import cv2
 
 # Load trained model
-model = tf.keras.models.load_model("LungCancerPrediction.h5")
+model = tf.keras.models.load_model("LungCancerprediction/LungCancerPrediction.h5")
 
 # Class labels from your dataset
 class_names = ['lung_acc', 'normal', 'lung_scc']

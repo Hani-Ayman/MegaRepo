@@ -9,8 +9,8 @@ from sklearn.metrics import accuracy_score,precision_score,f1_score,recall_score
 import joblib
 import streamlit as st
 
-model= tf.keras.models.load_model("Dabetic_model.h5")
-scaler= joblib.load("scaler.pkl")
+model= tf.keras.models.load_model("Diabetes_neural_network/Dabetic_model.h5")
+scaler= joblib.load("Diabetes_neural_network/scaler.pkl")
 
 st.set_page_config(page_title="Diabetes Prediction")
 st.title("Diabetes Prediction")

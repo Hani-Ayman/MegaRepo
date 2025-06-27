@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from sklearn.cluster import KMeans
-df = pd.read_csv("Mall_Customers.csv")
+df = pd.read_csv("Customer_cluster/Mall_Customers.csv")
 
 #df.info()
 #print(df.shape)

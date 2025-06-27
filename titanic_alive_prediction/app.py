@@ -4,8 +4,8 @@ import joblib
 
 # Load models and encoder
 
-model= joblib.load("Logistic_regression.pkl")
-le = joblib.load("label_encoder.pkl")
+model= joblib.load("titanic_alive_prediction/Logistic_regression.pkl")
+le = joblib.load("titanic_alive_prediction/label_encoder.pkl")
 
 # Streamlit UI
 st.title("🚢 Titanic Survival Prediction App")

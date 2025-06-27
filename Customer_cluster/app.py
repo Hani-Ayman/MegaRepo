@@ -6,8 +6,8 @@ import joblib
 from sklearn.cluster import KMeans
 import streamlit as st
 
-kmeans=joblib.load("Model.pkl")
-df = pd.read_csv("Mall_Customers.csv")
+kmeans=joblib.load("Customer_cluster/Model.pkl")
+df = pd.read_csv("Customer_cluster/Mall_Customers.csv")
 
 #df.info()
 #print(df.shape)

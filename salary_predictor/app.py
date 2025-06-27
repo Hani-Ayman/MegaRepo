@@ -5,8 +5,8 @@ import pandas as pd
 
 
 #load model and scaler
-model=joblib.load("salary_pred.pkl")
-scaler=joblib.load("scaler.pkl")
+model=joblib.load("salary_predictor/salary_pred.pkl")
+scaler=joblib.load("salary_predictor/scaler.pkl")
 
 
 #design basic layout of app

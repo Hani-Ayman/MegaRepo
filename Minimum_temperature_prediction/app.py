@@ -11,8 +11,8 @@ from tensorflow.keras.models import load_model
 import joblib
 
 # Load model and scaler
-model = load_model("lstm_temp_model.h5")
-scaler = joblib.load("scaler.pkl")
+model = load_model("Minimum_temperature_prediction/lstm_temp_model.h5")
+scaler = joblib.load("Minimum_temperature_prediction/scaler.pkl")
 
 st.set_page_config(page_title="Min Temperature Predictor")
 st.title("Minimum Temperature Forecast")
